@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionShop", "OnionShop\OnionShop.csproj", "{A3D6DA8F-BBA0-4B74-A11F-23A59CE0C9B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionShop.Application", "OnionShop.Application\OnionShop.Application.csproj", "{4E783619-3D12-4B0D-9051-C4CC08E8B3F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionShop.DataLayer", "OnionShop.DataLayer\OnionShop.DataLayer.csproj", "{71ACE1D3-22FC-430E-B348-4FF8C8F19C51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A3D6DA8F-BBA0-4B74-A11F-23A59CE0C9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3D6DA8F-BBA0-4B74-A11F-23A59CE0C9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3D6DA8F-BBA0-4B74-A11F-23A59CE0C9B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E783619-3D12-4B0D-9051-C4CC08E8B3F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E783619-3D12-4B0D-9051-C4CC08E8B3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E783619-3D12-4B0D-9051-C4CC08E8B3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E783619-3D12-4B0D-9051-C4CC08E8B3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71ACE1D3-22FC-430E-B348-4FF8C8F19C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71ACE1D3-22FC-430E-B348-4FF8C8F19C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71ACE1D3-22FC-430E-B348-4FF8C8F19C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71ACE1D3-22FC-430E-B348-4FF8C8F19C51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
