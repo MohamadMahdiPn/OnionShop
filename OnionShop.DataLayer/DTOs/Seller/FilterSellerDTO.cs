@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using OnionShop.DataLayer.DTOs.Paging;
+using OnionShop.DataLayer.Enums;
 
 namespace OnionShop.DataLayer.DTOs.Seller
 {
