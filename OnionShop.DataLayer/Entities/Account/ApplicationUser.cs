@@ -32,7 +32,7 @@ namespace OnionShop.DataLayer.Entities.Account
         public string PhoneActiveCode { get; set; }
         public bool IsPhoneActive { get; set; }
         public string FirstName { get; set; }
-        public string LAstName { get; set; }
+        public string LastName { get; set; }
         public string Password { get; set; }
         public string Avatar { get; set; }
         public bool IsBlocked { get; set; }

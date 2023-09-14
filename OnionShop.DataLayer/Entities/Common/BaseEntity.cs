@@ -8,7 +8,7 @@ namespace OnionShop.DataLayer.Entities.Common;
 
     public class BaseEntity
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public DateTime CreatedDateTime { get; set; }
         public DateTime? ModifiedDateTime { get; set; }
         public bool IsDeleted { get; set; }

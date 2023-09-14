@@ -35,7 +35,7 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
 
     #region Get
 
-    public async Task<TEntity?> GetEntity(long id)
+    public async Task<TEntity?> GetEntity(int id)
     {
         return await _dbSet.SingleOrDefaultAsync(x => x.Id == id);
     }
@@ -70,7 +70,7 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
 
     #region Delete
 
-    public async Task<bool> DeleteEntity(long id)
+    public async Task<bool> DeleteEntity(int id)
     {
         var entity = await GetEntity(id);
         entity.IsDeleted = true;

@@ -6,8 +6,8 @@ public interface IGenericRepository<TEntity>: IAsyncDisposable where TEntity : B
 {
     Task<bool> AddEntity(TEntity entity);
     Task<bool> UpdateEntity(TEntity entity);
-    Task<TEntity?> GetEntity(long id);
-    Task<bool> DeleteEntity(long id);
+    Task<TEntity?> GetEntity(int id);
+    Task<bool> DeleteEntity(int id);
     Task<bool> DeleteEntity(TEntity entity);
     IQueryable<TEntity> GetQuery();
 }
