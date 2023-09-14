@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace OnionShop.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseSiteController
     {
         private readonly ILogger<HomeController> _logger;
 
