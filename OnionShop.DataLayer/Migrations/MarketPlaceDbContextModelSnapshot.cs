@@ -10,8 +10,8 @@ using OnionShop.DataLayer.Context;
 
 namespace OnionShop.DataLayer.Migrations
 {
-    [DbContext(typeof(MarketPlaceDbContext))]
-    partial class MarketPlaceDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(OnionShopDbContext))]
+    partial class OnionShopDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

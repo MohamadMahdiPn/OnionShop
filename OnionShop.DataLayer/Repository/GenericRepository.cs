@@ -9,10 +9,10 @@ public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEnt
 {
     #region Constructor
 
-    private readonly MarketPlaceDbContext _context;
+    private readonly OnionShopDbContext _context;
     private readonly DbSet<TEntity> _dbSet;
 
-    public GenericRepository(MarketPlaceDbContext context)
+    public GenericRepository(OnionShopDbContext context)
     {
         _context = context;
         _dbSet = _context.Set<TEntity>();

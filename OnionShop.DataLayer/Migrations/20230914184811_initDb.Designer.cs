@@ -11,7 +11,7 @@ using OnionShop.DataLayer.Context;
 
 namespace OnionShop.DataLayer.Migrations
 {
-    [DbContext(typeof(MarketPlaceDbContext))]
+    [DbContext(typeof(OnionShopDbContext))]
     [Migration("20230914184811_initDb")]
     partial class initDb
     {

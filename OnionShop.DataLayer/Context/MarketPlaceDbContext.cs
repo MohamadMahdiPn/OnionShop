@@ -9,11 +9,11 @@ using OnionShop.DataLayer.Entities.Wallet;
 
 namespace OnionShop.DataLayer.Context;
 
-public class MarketPlaceDbContext:DbContext
+public class OnionShopDbContext:DbContext
 {
     #region Constructor
 
-    public MarketPlaceDbContext(DbContextOptions<MarketPlaceDbContext> options):base(options)
+    public OnionShopDbContext(DbContextOptions<OnionShopDbContext> options):base(options)
     {
         
     }

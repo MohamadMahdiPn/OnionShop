@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Context\" />
-    <Folder Include="DTOs\Account\" />
     <Folder Include="Migrations\" />
     <Folder Include="Repository\interfaces\" />
   </ItemGroup>
